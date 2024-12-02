@@ -22,5 +22,5 @@ spec:
             - name: NAME
               valueFrom:
                 configMapKeyRef:
-                  name: test
+                  name: pokedex-app
                   key: NAME
