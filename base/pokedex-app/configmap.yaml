@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: pokedex-app
 data:
-  NAME: "Chez Alban"
+  POKEDEX_NAME: "Chez Alban"
 
