@@ -24,3 +24,14 @@ spec:
                 configMapKeyRef:
                   name: pokedex-app
                   key: POKEDEX_NAME
+            - name: POKEDEX_START_NUMBER
+              valueFrom:
+                configMapKeyRef:
+                  name: pokedex-app
+                  key: POKEDEX_START_NUMBER
+            - name: POKEDEX_END_NUMBER
+              valueFrom:
+                configMapKeyRef:
+                  name: pokedex-app
+                  key: POKEDEX_END_NUMBER
+
