@@ -30,11 +30,3 @@ spec:
         envFrom:
           - configMapRef:
               name: pokedex-johto-cm
-        livenessProbe:
-          httpGet:
-            path: /health
-            port: http
-        readinessProbe:
-          httpGet:
-            path: /health
-            port: http
