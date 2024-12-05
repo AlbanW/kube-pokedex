@@ -14,7 +14,7 @@ spec:
         app: pokedex-app
     spec:
       containers:
-        - image: ghcr.io/froissant/pokedex:sha256-723cec7f6d1805c887635ba87b5166021d3a6285c4fb18bb086ae3972f442104
+        - image: ghcr.io/froissant/pokedex:sha256-d7a3f49f762e164b2493277992cddd4cb16c7d71d03e4f826e6786ba625fbd81
           name: pokedex-app
           ports:
             - containerPort: 3000
