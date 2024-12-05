@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: pokedex-app
-data:
-  POKEDEX_NAME: "Chez Alban"
-  POKEDEX_START_NUMBER: "0"
-  POKEDEX_END_NUMBER: "151"
-
